@@ -2,16 +2,16 @@
   OlaMundo: `escreva("Olá, mundo!")`,
 
   OperacoesBasicas: `
-var a = 10
-var b = 4
+a = 10
+b = 4
 
 escreva("Valor de A: " + texto(a))
 escreva("Valor de B: " + texto(b))
 
-var soma = a + b     # Soma os dois valores
-var sub  = a - b     # Subtrai os dois valores
-var mult = a * b     # Multiplica os dois valores
-var div  = a / b     # Divide os dois valores
+soma = a + b     # Soma os dois valores
+sub  = a - b     # Subtrai os dois valores
+mult = a * b     # Multiplica os dois valores
+div  = a / b     # Divide os dois valores
 
 escreva("A soma dos números é igual a: " + texto(soma))
 escreva("A subtração dos números é igual a: " + texto(sub))
@@ -20,7 +20,7 @@ escreva("A divisão dos números é igual a: " + texto(div))
 `,
 
   Condicional: `
-var letra = leia("Digite uma letra:")
+letra = leia("Digite uma letra:")
 
 # É necessário verificar letras minúsculas e maiúsculas
 se (
@@ -41,8 +41,13 @@ classe Cachorro(Animal):
   funcao latir():
     escreva("Au Au Au Au")
 
-var nomeDoCachorro = Cachorro()
+nomeDoCachorro = Cachorro()
 nomeDoCachorro.correr()
 nomeDoCachorro.latir()
-`
-}
+`,
+  MergeSort: ``,
+  Bhaskara: ``,
+  Fibonacci: ``,
+  Perceptron: ``,
+  FilaEstatica: ``,
+};
